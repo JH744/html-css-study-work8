@@ -1,0 +1,49 @@
+.btn-outline-success {
+  color: chocolate;
+  border: chocolate 1px solid;
+}
+.btn-outline-success:hover {
+  background-color: chocolate;
+  color: #fff;
+  border: 1px solid chocolate;
+}
+
+.hhh-512 {
+  height: 700px;
+}
+
+footer {
+  background-color: #683111ee;
+  color: #fff;
+}
+
+.first-line {
+  border-bottom: 1px solid #af5510;
+}
+
+.second-line {
+  border-bottom: 1px solid #af5510;
+}
+.second-line a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .third-line {
+    display: block;
+    text-align: center;
+  }
+}
